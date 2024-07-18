@@ -1,2 +1,2 @@
 # game
-Javascript Tebak Angka
+Game sederhana yang dibuat dengan Javascript
