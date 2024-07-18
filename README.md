@@ -1,2 +1,2 @@
 # game
-Game sederhana yang dibuat dengan Javascript
+Kumpulan game sederhana yang dibuat untuk latihan
