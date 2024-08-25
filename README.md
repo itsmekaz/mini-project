@@ -1,2 +1,2 @@
 # game
-Kumpulan game sederhana yang dibuat untuk latihan
+Kumpulan code sederhana yang dibuat untuk latihan
