@@ -1,2 +1,2 @@
-# practice
-Kumpulan code sederhana yang dibuat untuk latihan
+# mini project
+Kumpulan mini project sederhana untuk latihan javascript
