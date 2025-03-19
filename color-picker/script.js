@@ -1,4 +1,4 @@
-// seleksi input color
+// seleksi input color dan ketika color dipilih lakukan fungsi berikut
 document.getElementById("colorInput").addEventListener("input", (e) => {
   // ambil input colornya
   let colorSelected = e.target.value;
