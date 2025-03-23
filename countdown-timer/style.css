@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 13px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 5px;
+}
+
+#countdown > p {
+  font-size: 1.7em;
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inputs > input {
+  width: 60px;
+  height: 35px;
+  border: 2px solid steelblue;
+  border-radius: 5px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.inputs > input::placeholder {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1em;
+}
+
+.inputs > input:active {
+  border-color: cornflowerblue;
+}
+
+.inputs > button {
+  width: 110px;
+  height: 37px;
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.inputs > button:hover {
+  background-color:rgb(143, 175, 234);
+}
