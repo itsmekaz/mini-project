@@ -21,11 +21,11 @@ let quotes = [
 function generateQuote() {
   // get random index dari array
   let randomIndex = Math.floor(Math.random() * quotes.length);
-  let randomQuote = quotes[randomIndex]; // biar dapet barisnya dgn index random
+  let row = quotes[randomIndex]; // biar dapet barisnya dgn index random
 
   // update quote dan author yang ada di HTML
-  quote.textContent = `${randomQuote.quote}`; //udh dpt barisnya trs dilanjut mau ambil yg spesifik
-  author.textContent = `—${randomQuote.author}`;
+  quote.textContent = `${row.quote}`; //udh dpt barisnya trs dilanjut mau ambil yg spesifik
+  author.textContent = `—${row.author}`;
 }
 
 buttonGenerator.addEventListener('click', generateQuote);
